@@ -1,8 +1,11 @@
-const input = [1,2,3,4];
-product = 1;
 
+
+function myfunc(input){
+product = 1;
 for (var i=0; i<input.length; i++) {
     product *= input[i];
 }
+return product
+}
 
-console.log(product)
+console.log(myfunc([1,2,3,4]))

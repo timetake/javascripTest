@@ -1,3 +1,8 @@
-const input = ["orange", "apple", "grape"]
-output= input.join('$')
-console.log(output)
+
+
+function myfunc(input){
+    return input.join('$')
+}
+
+
+console.log(myfunc(["orange", "apple", "grape"]))

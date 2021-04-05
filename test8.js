@@ -1,4 +1,4 @@
-const input = 0;
+
 
 function fib(n) {
     if (n<=1){
@@ -10,7 +10,7 @@ function fib(n) {
 
 
 
-console.log(fib(input))
+console.log(fib(0))
 
 
 
