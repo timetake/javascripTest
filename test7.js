@@ -1,17 +1,16 @@
+function myfunc(input) {
+  var year = [];
+  for (var i = input[0]; i <= input[1]; i++) {
+    year.push(i);
+  }
 
-function myfunc(input){
+  var leapYear = [];
 
-var year = [];
-for (var i = input[0]; i <= input[1]; i++ ){
-    year.push(i)
+  for (let i of year) {
+    if ((i % 4 === 0 && i % 100 !== 0) || (i % 100 === 0 && i % 400 === 0))
+      leapYear.push(i);
+  }
+  return leapYear;
 }
 
-var leapYear=[];
-
-for (let i of year){
-    if (((i % 4 === 0 && i % 100 !== 0) || (i % 100 === 0 && i % 400 === 0)) )
-    leapYear.push(i)
-}
-return leapYear
-}
-console.log(myfunc([1800,2000]));
+console.log(myfunc([1800, 2000]));

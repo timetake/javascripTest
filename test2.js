@@ -1,8 +1,5 @@
-
-
-function myfunc(input){
-    return input.join('$')
+function myfunc(input) {
+  return input.join("$");
 }
 
-
-console.log(myfunc(["orange", "apple", "grape"]))
+console.log(myfunc(["orange", "apple", "grape"]));
