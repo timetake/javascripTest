@@ -1,3 +1,3 @@
-var a = 1;
-var b = 2;
-console.log(a + b);
+var peter = 1;
+var dora = 2;
+console.log(peter + dora);
